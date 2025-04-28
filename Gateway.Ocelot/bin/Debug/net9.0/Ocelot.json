@@ -1,0 +1,127 @@
+{
+  "Routes": [
+    {
+      // LOGIN route - public (no auth)
+      "DownstreamPathTemplate": "/api/Identity/Login",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44392
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Identity/Login",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      // Register route - public (no auth)
+      "DownstreamPathTemplate": "/api/Identity/Register",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44392
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Identity/Register",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      // Refresh Token route - public (no auth)
+      "DownstreamPathTemplate": "/api/Identity/refresh",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44392
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Identity/refresh",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      // Logout route - public (no auth)
+      "DownstreamPathTemplate": "/api/Identity/LogOut",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44392
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Identity/LogOut",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      // Protected Identity routes (/api/identity/users)
+      "DownstreamPathTemplate": "/api/Identity/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44392
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Identity/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      // Platform(File) protected routes
+      "DownstreamPathTemplate": "/api/File/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44305
+        }
+      ],
+      "UpstreamPathTemplate": "/api/File/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      // Platform(Teacher) protected routes
+      "DownstreamPathTemplate": "/api/Teacher/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44305
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Teacher/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      // Platform(Student) protected routes
+      "DownstreamPathTemplate": "/api/Student/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44305
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Student/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44392"
+  }
+}

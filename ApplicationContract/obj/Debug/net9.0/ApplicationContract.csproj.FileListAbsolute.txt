@@ -1,0 +1,17 @@
+E:\Kareem Project\Identity\ApplicationContract\bin\Debug\net9.0\ApplicationContract.deps.json
+E:\Kareem Project\Identity\ApplicationContract\bin\Debug\net9.0\ApplicationContract.dll
+E:\Kareem Project\Identity\ApplicationContract\bin\Debug\net9.0\ApplicationContract.pdb
+E:\Kareem Project\Identity\ApplicationContract\bin\Debug\net9.0\Domain.dll
+E:\Kareem Project\Identity\ApplicationContract\bin\Debug\net9.0\DomainShared.dll
+E:\Kareem Project\Identity\ApplicationContract\bin\Debug\net9.0\Domain.pdb
+E:\Kareem Project\Identity\ApplicationContract\bin\Debug\net9.0\DomainShared.pdb
+E:\Kareem Project\Identity\ApplicationContract\obj\Debug\net9.0\ApplicationContract.csproj.AssemblyReference.cache
+E:\Kareem Project\Identity\ApplicationContract\obj\Debug\net9.0\ApplicationContract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kareem Project\Identity\ApplicationContract\obj\Debug\net9.0\ApplicationContract.AssemblyInfoInputs.cache
+E:\Kareem Project\Identity\ApplicationContract\obj\Debug\net9.0\ApplicationContract.AssemblyInfo.cs
+E:\Kareem Project\Identity\ApplicationContract\obj\Debug\net9.0\ApplicationContract.csproj.CoreCompileInputs.cache
+E:\Kareem Project\Identity\ApplicationContract\obj\Debug\net9.0\Applicat.74A3458A.Up2Date
+E:\Kareem Project\Identity\ApplicationContract\obj\Debug\net9.0\ApplicationContract.dll
+E:\Kareem Project\Identity\ApplicationContract\obj\Debug\net9.0\refint\ApplicationContract.dll
+E:\Kareem Project\Identity\ApplicationContract\obj\Debug\net9.0\ApplicationContract.pdb
+E:\Kareem Project\Identity\ApplicationContract\obj\Debug\net9.0\ref\ApplicationContract.dll
