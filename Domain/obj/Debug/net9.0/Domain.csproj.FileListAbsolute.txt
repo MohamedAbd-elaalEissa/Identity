@@ -8,6 +8,7 @@ E:\Kareem Project\Identity\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditor
 E:\Kareem Project\Identity\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
 E:\Kareem Project\Identity\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
 E:\Kareem Project\Identity\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+E:\Kareem Project\Identity\Domain\obj\Debug\net9.0\Domain.sourcelink.json
 E:\Kareem Project\Identity\Domain\obj\Debug\net9.0\Domain.csproj.Up2Date
 E:\Kareem Project\Identity\Domain\obj\Debug\net9.0\Domain.dll
 E:\Kareem Project\Identity\Domain\obj\Debug\net9.0\refint\Domain.dll

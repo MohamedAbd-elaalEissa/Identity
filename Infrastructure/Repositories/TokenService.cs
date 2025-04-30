@@ -17,7 +17,7 @@ namespace Infrastructure.Repositories
             var authClaims = new List<Claim>()
             {
                 new Claim(ClaimTypes.GivenName,user.DisplayName),
-                new Claim(ClaimTypes.Email,user.Email),
+                new Claim("email",user.Email),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
 
             };

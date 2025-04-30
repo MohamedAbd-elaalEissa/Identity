@@ -14,6 +14,7 @@ E:\Kareem Project\Identity\Application\obj\Debug\net9.0\Application.GeneratedMSB
 E:\Kareem Project\Identity\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
 E:\Kareem Project\Identity\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
 E:\Kareem Project\Identity\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+E:\Kareem Project\Identity\Application\obj\Debug\net9.0\Application.sourcelink.json
 E:\Kareem Project\Identity\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
 E:\Kareem Project\Identity\Application\obj\Debug\net9.0\Application.dll
 E:\Kareem Project\Identity\Application\obj\Debug\net9.0\refint\Application.dll

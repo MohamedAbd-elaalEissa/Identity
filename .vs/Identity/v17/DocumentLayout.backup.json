@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "E:\\Kareem Project\\Identity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|e:\\kareem project\\identity\\infrastructure\\repositories\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|e:\\kareem project\\identity\\gateway.ocelot\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|e:\\kareem project\\identity\\gateway.ocelot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|e:\\kareem project\\identity\\gateway.ocelot\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|e:\\kareem project\\identity\\gateway.ocelot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|e:\\kareem project\\identity\\gateway.ocelot\\gateway.ocelot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\gateway.ocelot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|e:\\kareem project\\identity\\gateway.ocelot\\gateway.ocelot.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\gateway.ocelot.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|e:\\kareem project\\identity\\infrastructure\\repositories\\rabbitmq\\registerpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\rabbitmq\\registerpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +106,97 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "E:\\Kareem Project\\Identity\\Infrastructure\\Repositories\\TokenService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\TokenService.cs",
+              "ToolTip": "E:\\Kareem Project\\Identity\\Infrastructure\\Repositories\\TokenService.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T17:38:13.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\appsettings.json",
+              "RelativeDocumentMoniker": "Gateway.Ocelot\\appsettings.json",
+              "ToolTip": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\appsettings.json",
+              "RelativeToolTip": "Gateway.Ocelot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T15:07:44.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Program.cs",
+              "RelativeDocumentMoniker": "Gateway.Ocelot\\Program.cs",
+              "ToolTip": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Program.cs",
+              "RelativeToolTip": "Gateway.Ocelot\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:46:40.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ocelot.json",
+              "DocumentMoniker": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Ocelot.json",
+              "RelativeDocumentMoniker": "Gateway.Ocelot\\Ocelot.json",
+              "ToolTip": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Ocelot.json",
+              "RelativeToolTip": "Gateway.Ocelot\\Ocelot.json",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T14:56:39.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gateway.Ocelot.http",
+              "DocumentMoniker": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.http",
+              "RelativeDocumentMoniker": "Gateway.Ocelot\\Gateway.Ocelot.http",
+              "ToolTip": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.http",
+              "RelativeToolTip": "Gateway.Ocelot\\Gateway.Ocelot.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-30T14:56:38.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Gateway.Ocelot",
+              "DocumentMoniker": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.csproj",
+              "RelativeDocumentMoniker": "Gateway.Ocelot\\Gateway.Ocelot.csproj",
+              "ToolTip": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.csproj",
+              "RelativeToolTip": "Gateway.Ocelot\\Gateway.Ocelot.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-30T14:47:20.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Gateway.Ocelot\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Gateway.Ocelot\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T14:46:47.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IdentityController.cs",
               "DocumentMoniker": "E:\\Kareem Project\\Identity\\Identity\\Controllers\\IdentityController.cs",
               "RelativeDocumentMoniker": "Identity\\Controllers\\IdentityController.cs",
@@ -91,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "InfrastructureServiceExtensions.cs",
               "DocumentMoniker": "E:\\Kareem Project\\Identity\\Infrastructure\\Shared\\InfrastructureServiceExtensions.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Shared\\InfrastructureServiceExtensions.cs",
@@ -103,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "E:\\Kareem Project\\Identity\\ApplicationContract\\Models\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "ApplicationContract\\Models\\RegisterDTO.cs",
@@ -111,12 +229,11 @@
               "RelativeToolTip": "ApplicationContract\\Models\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T13:03:14.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T13:03:14.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "RegisterPublisher.cs",
               "DocumentMoniker": "E:\\Kareem Project\\Identity\\Infrastructure\\Repositories\\RabbitMQ\\RegisterPublisher.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RabbitMQ\\RegisterPublisher.cs",
@@ -129,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\Kareem Project\\Identity\\Infrastructure\\Repositories\\UserService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserService.cs",

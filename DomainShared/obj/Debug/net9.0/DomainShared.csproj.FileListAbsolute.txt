@@ -5,6 +5,7 @@ E:\Kareem Project\Identity\DomainShared\obj\Debug\net9.0\DomainShared.GeneratedM
 E:\Kareem Project\Identity\DomainShared\obj\Debug\net9.0\DomainShared.AssemblyInfoInputs.cache
 E:\Kareem Project\Identity\DomainShared\obj\Debug\net9.0\DomainShared.AssemblyInfo.cs
 E:\Kareem Project\Identity\DomainShared\obj\Debug\net9.0\DomainShared.csproj.CoreCompileInputs.cache
+E:\Kareem Project\Identity\DomainShared\obj\Debug\net9.0\DomainShared.sourcelink.json
 E:\Kareem Project\Identity\DomainShared\obj\Debug\net9.0\DomainShared.dll
 E:\Kareem Project\Identity\DomainShared\obj\Debug\net9.0\refint\DomainShared.dll
 E:\Kareem Project\Identity\DomainShared\obj\Debug\net9.0\DomainShared.pdb

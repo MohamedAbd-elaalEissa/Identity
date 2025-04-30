@@ -37,6 +37,7 @@ E:\Kareem Project\Identity\Gateway.Ocelot\obj\Debug\net9.0\Gateway.Ocelot.Assemb
 E:\Kareem Project\Identity\Gateway.Ocelot\obj\Debug\net9.0\Gateway.Ocelot.csproj.CoreCompileInputs.cache
 E:\Kareem Project\Identity\Gateway.Ocelot\obj\Debug\net9.0\Gateway.Ocelot.MvcApplicationPartsAssemblyInfo.cs
 E:\Kareem Project\Identity\Gateway.Ocelot\obj\Debug\net9.0\Gateway.Ocelot.MvcApplicationPartsAssemblyInfo.cache
+E:\Kareem Project\Identity\Gateway.Ocelot\obj\Debug\net9.0\Gateway.Ocelot.sourcelink.json
 E:\Kareem Project\Identity\Gateway.Ocelot\obj\Debug\net9.0\scopedcss\bundle\Gateway.Ocelot.styles.css
 E:\Kareem Project\Identity\Gateway.Ocelot\obj\Debug\net9.0\staticwebassets.build.json
 E:\Kareem Project\Identity\Gateway.Ocelot\obj\Debug\net9.0\staticwebassets.development.json

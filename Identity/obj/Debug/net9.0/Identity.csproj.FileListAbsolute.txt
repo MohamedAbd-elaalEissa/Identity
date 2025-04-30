@@ -59,6 +59,8 @@ E:\Kareem Project\Identity\Identity\bin\Debug\net9.0\Microsoft.OpenApi.dll
 E:\Kareem Project\Identity\Identity\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
 E:\Kareem Project\Identity\Identity\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
 E:\Kareem Project\Identity\Identity\bin\Debug\net9.0\Mono.TextTemplating.dll
+E:\Kareem Project\Identity\Identity\bin\Debug\net9.0\Newtonsoft.Json.dll
+E:\Kareem Project\Identity\Identity\bin\Debug\net9.0\RabbitMQ.Client.dll
 E:\Kareem Project\Identity\Identity\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\Kareem Project\Identity\Identity\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Kareem Project\Identity\Identity\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -173,6 +175,7 @@ E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\Identity.AssemblyInfo.cs
 E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\Identity.csproj.CoreCompileInputs.cache
 E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\Identity.MvcApplicationPartsAssemblyInfo.cs
 E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\Identity.MvcApplicationPartsAssemblyInfo.cache
+E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\Identity.sourcelink.json
 E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\scopedcss\bundle\Identity.styles.css
 E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\staticwebassets.build.json
 E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\staticwebassets.development.json
@@ -190,5 +193,3 @@ E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\refint\Identity.dll
 E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\Identity.pdb
 E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\Identity.genruntimeconfig.cache
 E:\Kareem Project\Identity\Identity\obj\Debug\net9.0\ref\Identity.dll
-E:\Kareem Project\Identity\Identity\bin\Debug\net9.0\Newtonsoft.Json.dll
-E:\Kareem Project\Identity\Identity\bin\Debug\net9.0\RabbitMQ.Client.dll
