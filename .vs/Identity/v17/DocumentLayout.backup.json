@@ -3,52 +3,52 @@
   "WorkspaceRootPath": "D:\\Identity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\Infrastructure\\Repositories\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Repositories\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|d:\\identity\\infrastructure\\repositories\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\Gateway.Ocelot\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gateway.Ocelot\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|d:\\identity\\gateway.ocelot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\Gateway.Ocelot\\Ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gateway.Ocelot\\Ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|d:\\identity\\gateway.ocelot\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gateway.Ocelot\\Gateway.Ocelot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|d:\\identity\\gateway.ocelot\\gateway.ocelot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\gateway.ocelot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gateway.Ocelot\\Gateway.Ocelot.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|d:\\identity\\gateway.ocelot\\gateway.ocelot.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\gateway.ocelot.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\Gateway.Ocelot\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gateway.Ocelot\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|d:\\identity\\gateway.ocelot\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\Identity\\Controllers\\IdentityController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Identity\\Controllers\\IdentityController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7A29181-5052-4639-84ED-5CBFD0823D98}|Identity\\Identity.csproj|d:\\identity\\identity\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A29181-5052-4639-84ED-5CBFD0823D98}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\Infrastructure\\Repositories\\TokenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Repositories\\TokenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|d:\\identity\\infrastructure\\repositories\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\Gateway.Ocelot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gateway.Ocelot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|d:\\identity\\gateway.ocelot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9F8983D-74D4-4970-9ADF-715679A6F69F}|Gateway.Ocelot\\Gateway.Ocelot.csproj|solutionrelative:gateway.ocelot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\Infrastructure\\Shared\\InfrastructureServiceExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Shared\\InfrastructureServiceExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|d:\\identity\\infrastructure\\shared\\infrastructureserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\shared\\infrastructureserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\ApplicationContract\\Models\\RegisterDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApplicationContract\\Models\\RegisterDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAFDF133-E9B5-4113-861A-A4925BC686CE}|ApplicationContract\\ApplicationContract.csproj|d:\\identity\\applicationcontract\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFDF133-E9B5-4113-861A-A4925BC686CE}|ApplicationContract\\ApplicationContract.csproj|solutionrelative:applicationcontract\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Identity\\Infrastructure\\Repositories\\RabbitMQ\\RegisterPublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Repositories\\RabbitMQ\\RegisterPublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|d:\\identity\\infrastructure\\repositories\\rabbitmq\\registerpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023DC5D5-7AF7-4E06-A15D-2EFDF5D8FAED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\rabbitmq\\registerpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -147,7 +147,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Gateway.Ocelot.csproj",
+              "Title": "Gateway.Ocelot",
               "DocumentMoniker": "D:\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.csproj",
               "RelativeDocumentMoniker": "Gateway.Ocelot\\Gateway.Ocelot.csproj",
               "ToolTip": "D:\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.csproj",
