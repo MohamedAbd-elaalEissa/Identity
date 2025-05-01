@@ -5,3 +5,17 @@
 *.suo
 *.userosscache
 *.sln.docstates
+# Ignore build output folders
+bin/
+obj/
+
+# أو بشكل أوسع تجاهل أي ملفات داخل obj لأي نسخة .NET
+**/obj/
+**/bin/
+
+# تجاهل الملفات المؤقتة الخاصة بالـ MSBuild
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.assets.cache
+*.AssemblyReference.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
