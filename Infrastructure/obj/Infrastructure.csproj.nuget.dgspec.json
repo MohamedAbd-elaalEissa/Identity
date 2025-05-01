@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Kareem Project\\Identity\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Identity\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\Kareem Project\\Identity\\ApplicationContract\\ApplicationContract.csproj": {
+    "D:\\Identity\\ApplicationContract\\ApplicationContract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kareem Project\\Identity\\ApplicationContract\\ApplicationContract.csproj",
+        "projectUniqueName": "D:\\Identity\\ApplicationContract\\ApplicationContract.csproj",
         "projectName": "ApplicationContract",
-        "projectPath": "E:\\Kareem Project\\Identity\\ApplicationContract\\ApplicationContract.csproj",
-        "packagesPath": "C:\\Users\\essam_fmv71\\.nuget\\packages\\",
-        "outputPath": "E:\\Kareem Project\\Identity\\ApplicationContract\\obj\\",
+        "projectPath": "D:\\Identity\\ApplicationContract\\ApplicationContract.csproj",
+        "packagesPath": "C:\\Users\\Philo\\.nuget\\packages\\",
+        "outputPath": "D:\\Identity\\ApplicationContract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\essam_fmv71\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Philo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\Kareem Project\\Identity\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\Kareem Project\\Identity\\Domain\\Domain.csproj"
+              "D:\\Identity\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Identity\\Domain\\Domain.csproj"
               }
             }
           }
@@ -46,7 +46,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -87,24 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Kareem Project\\Identity\\DomainShared\\DomainShared.csproj": {
+    "D:\\Identity\\DomainShared\\DomainShared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kareem Project\\Identity\\DomainShared\\DomainShared.csproj",
+        "projectUniqueName": "D:\\Identity\\DomainShared\\DomainShared.csproj",
         "projectName": "DomainShared",
-        "projectPath": "E:\\Kareem Project\\Identity\\DomainShared\\DomainShared.csproj",
-        "packagesPath": "C:\\Users\\essam_fmv71\\.nuget\\packages\\",
-        "outputPath": "E:\\Kareem Project\\Identity\\DomainShared\\obj\\",
+        "projectPath": "D:\\Identity\\DomainShared\\DomainShared.csproj",
+        "packagesPath": "C:\\Users\\Philo\\.nuget\\packages\\",
+        "outputPath": "D:\\Identity\\DomainShared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\essam_fmv71\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Philo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -129,7 +129,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -152,24 +152,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Kareem Project\\Identity\\Domain\\Domain.csproj": {
+    "D:\\Identity\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kareem Project\\Identity\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Identity\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\Kareem Project\\Identity\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\essam_fmv71\\.nuget\\packages\\",
-        "outputPath": "E:\\Kareem Project\\Identity\\Domain\\obj\\",
+        "projectPath": "D:\\Identity\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Philo\\.nuget\\packages\\",
+        "outputPath": "D:\\Identity\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\essam_fmv71\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Philo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -184,8 +184,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\Kareem Project\\Identity\\DomainShared\\DomainShared.csproj": {
-                "projectPath": "E:\\Kareem Project\\Identity\\DomainShared\\DomainShared.csproj"
+              "D:\\Identity\\DomainShared\\DomainShared.csproj": {
+                "projectPath": "D:\\Identity\\DomainShared\\DomainShared.csproj"
               }
             }
           }
@@ -198,7 +198,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -231,24 +231,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Kareem Project\\Identity\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Identity\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kareem Project\\Identity\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Identity\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\Kareem Project\\Identity\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\essam_fmv71\\.nuget\\packages\\",
-        "outputPath": "E:\\Kareem Project\\Identity\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Identity\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Philo\\.nuget\\packages\\",
+        "outputPath": "D:\\Identity\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\essam_fmv71\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Philo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -263,11 +263,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\Kareem Project\\Identity\\ApplicationContract\\ApplicationContract.csproj": {
-                "projectPath": "E:\\Kareem Project\\Identity\\ApplicationContract\\ApplicationContract.csproj"
+              "D:\\Identity\\ApplicationContract\\ApplicationContract.csproj": {
+                "projectPath": "D:\\Identity\\ApplicationContract\\ApplicationContract.csproj"
               },
-              "E:\\Kareem Project\\Identity\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\Kareem Project\\Identity\\Domain\\Domain.csproj"
+              "D:\\Identity\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Identity\\Domain\\Domain.csproj"
               }
             }
           }
@@ -280,7 +280,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -343,7 +343,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1272,23 +1272,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\essam_fmv71\\.nuget\\packages\\": {},
+    "C:\\Users\\Philo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.csproj",
+      "projectUniqueName": "D:\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.csproj",
       "projectName": "Gateway.Ocelot",
-      "projectPath": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.csproj",
-      "packagesPath": "C:\\Users\\essam_fmv71\\.nuget\\packages\\",
-      "outputPath": "E:\\Kareem Project\\Identity\\Gateway.Ocelot\\obj\\",
+      "projectPath": "D:\\Identity\\Gateway.Ocelot\\Gateway.Ocelot.csproj",
+      "packagesPath": "C:\\Users\\Philo\\.nuget\\packages\\",
+      "outputPath": "D:\\Identity\\Gateway.Ocelot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\essam_fmv71\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Philo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1313,7 +1313,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -1357,7 +1357,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
