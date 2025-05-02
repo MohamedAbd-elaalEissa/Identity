@@ -1,0 +1,13 @@
+# .NET build outputs
+**/bin/
+**/obj/
+*.dll
+*.pdb
+*.exe
+*.json
+*.cache
+*.txt
+# User-specific files
+*.suo
+*.user
+*.userosscache
