@@ -14,8 +14,10 @@ namespace Infrastructure.Repositories.RabbitMQ
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "localhost", // Only hostname
-                Port = 5672              // AMQP default port
+                //HostName = "localhost", // Only hostname
+                //Port = 5672              // AMQP default port
+                Uri = new Uri("amqps://uhulsxor:8v1BskBvaS1_MOpp6K-qyTghk5PX5ibT@woodpecker.rmq.cloudamqp.com/uhulsxor"),
+
             }; // RabbitMQ server  
             using var connection = await factory.CreateConnectionAsync();
             using var channel = await connection.CreateChannelAsync();

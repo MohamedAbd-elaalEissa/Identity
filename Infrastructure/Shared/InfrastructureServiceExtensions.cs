@@ -17,7 +17,15 @@ namespace Infrastructure.Shared
         {
             services.AddDbContext<IdentityDbContexct>(options =>
             {
-                options.UseSqlServer(confegeration.GetConnectionString("IdentityConnection"));
+                options.UseSqlServer(confegeration.GetConnectionString("IdentityConnection"),
+                        sqlServerOptions =>
+                        {
+                            sqlServerOptions.EnableRetryOnFailure(
+                                maxRetryCount: 5,
+                                maxRetryDelay: TimeSpan.FromSeconds(10),
+                                errorNumbersToAdd: null
+                            );
+                        });
             });
             services.AddIdentity<AppIdentityUser, IdentityRole>().AddEntityFrameworkStores<IdentityDbContexct>().AddDefaultTokenProviders(); ;
             services.AddAuthentication(opt =>
@@ -43,7 +51,8 @@ namespace Infrastructure.Shared
 
                 };
             });
-            services.AddScoped<RegisterPublisher>();
+            //RabbitMQ
+              //services.AddScoped<RegisterPublisher>();
             return services;
         }
     }

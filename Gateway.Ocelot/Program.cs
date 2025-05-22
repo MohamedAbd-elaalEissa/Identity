@@ -1,5 +1,7 @@
 using Gateway.Ocelot.Shared;
+using Microsoft.AspNetCore.DataProtection;
 using Ocelot.Middleware;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Gateway.Ocelot
 {
@@ -18,6 +20,9 @@ namespace Gateway.Ocelot
             builder.Configuration.SetBasePath(builder.Environment.ContentRootPath)
                  .AddJsonFile("Ocelot.json",optional: false, reloadOnChange: true)
                  .AddEnvironmentVariables();
+            //builder.Services.AddDataProtection()
+            //        .PersistKeysToFileSystem(new DirectoryInfo("/app/keys"))
+            //        .ProtectKeysWithCertificate(new X509Certificate2("/https/aspnetapp.pfx", "1998"));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -29,13 +34,14 @@ namespace Gateway.Ocelot
             }
 
             app.UseHttpsRedirection();
+            app.UseRouting();
             app.UseCors("AllowAllOrigins");
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseOcelot().Wait();
 
             app.MapControllers();
-
+            app.MapGet("/", () => Results.Redirect("/swagger"));
             app.Run();
         }
     }

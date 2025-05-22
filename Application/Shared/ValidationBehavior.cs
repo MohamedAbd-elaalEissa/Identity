@@ -26,7 +26,7 @@ namespace Application.Shared
 
                 if (failures.Count != 0)
                 {
-                    throw new ValidationException(failures);
+                    throw new ApplicationContract.CustomException.ValidationException(failures);
                 }
             }
             return await next();

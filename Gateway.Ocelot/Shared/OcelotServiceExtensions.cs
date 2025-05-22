@@ -18,7 +18,10 @@ public static class OcelotServiceExtensions
             options.AddPolicy(name: MyAllowSpecificOrigins,
                 policy =>
                 {
-                    policy.WithOrigins("http://localhost:4200")
+                    policy.WithOrigins("http://localhost:4200",
+                                            "https://identitysso-001-site1.ktempurl.com",
+                                            "https://orginalplatform-001-site1.mtempurl.com",
+                                            "https://ssoidentity-001-site1.anytempurl.com")
                           .AllowAnyHeader()
                           .AllowAnyMethod()
                           .AllowCredentials();

@@ -1,6 +1,7 @@
 
 using Application.Shared;
 using Domain.Entities;
+using Identity.Shared;
 using Infrastructure.IdentitySeed;
 using Infrastructure.Shared;
 using Microsoft.AspNetCore.Identity;
@@ -48,14 +49,15 @@ namespace Identity
             }
 
             app.UseHttpsRedirection();
+            app.UseRouting();
             app.UseCors("AllowAllOrigins");
             app.UseStaticFiles();
             app.UseAuthentication();
             app.UseAuthorization();
-
+            app.UseGlobalExceptionHandling();
 
             app.MapControllers();
-
+            app.MapGet("/", () => Results.Redirect("/swagger"));
             app.Run();
         }
     }

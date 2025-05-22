@@ -1,0 +1,34 @@
+# This stage is used when running from VS in fast mode (Default for Debug configuration)
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+RUN apt-get update && apt-get install -y libkrb5-3 && rm -rf /var/lib/apt/lists/*
+# Remove USER $APP_UID as it might cause issues in some environments
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+
+# This stage is used to build the service project
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+# Corrected paths to match actual project structure
+COPY ["Identity/Identity.csproj", "Identity/"]
+COPY ["Application/Application.csproj", "Application/"]
+COPY ["Domain/Domain.csproj", "Domain/"]
+COPY ["DomainShared/DomainShared.csproj", "DomainShared/"]
+COPY ["Infrastructure/Infrastructure.csproj", "Infrastructure/"]
+COPY ["ApplicationContract/ApplicationContract.csproj", "ApplicationContract/"]
+RUN dotnet restore "./Identity/Identity.csproj"
+COPY . .
+WORKDIR "/src/Identity"
+RUN dotnet build "./Identity.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+# This stage is used to publish the service project to be copied to the final stage
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./Identity.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+# This stage is used in production or when running from VS in regular mode
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "Identity.dll"]

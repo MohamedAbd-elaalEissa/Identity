@@ -4,12 +4,16 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<Nullable>disable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>3fda5c14-e850-40de-b366-19e343b687af</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.4" />
 		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
 		<PackageReference Include="Ocelot" Version="24.0.0" />
+		<PackageReference Include="Steeltoe.Management.OpenCensus" Version="2.5.5" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
 
 	</ItemGroup>

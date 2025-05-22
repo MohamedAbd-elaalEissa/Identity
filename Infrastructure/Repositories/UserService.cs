@@ -1,4 +1,5 @@
 ﻿using ApplicationContract;
+using ApplicationContract.CustomException;
 using ApplicationContract.Models;
 using ApplicationContract.Token;
 using Domain.Entities;
@@ -7,20 +8,29 @@ using Infrastructure.Repositories.RabbitMQ;
 using Mapster;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Win32;
+using Newtonsoft.Json.Linq;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Text.Json;
+using static ApplicationContract.CustomException.NotFoundException;
 
 namespace Infrastructure.Repositories
 {
     public class UserService(UserManager<AppIdentityUser> _userManager, ITokenService _token,
         SignInManager<AppIdentityUser> _signIn, RoleManager<IdentityRole> _roleManager, IConfiguration _configuration,
-        IdentityDbContexct _context, RegisterPublisher _publisher) : IUserService
+        IdentityDbContexct _context
+        //, RegisterPublisher _publisher
+        ) : IUserService
     {
 
         public async Task<UserDTO> LoginAsync(LoginDTO login)
         {
             var user = _userManager.FindByEmailAsync(login.Email).Result;
-            if (user == null) { throw new UnauthorizedAccessException("Invalid email or password"); }
+            if (user == null) { throw new UnauthorizedException("Invalid email or password"); }
             var password = await _signIn.CheckPasswordSignInAsync(user, login.Password, false);
-            if (password == null) { throw new UnauthorizedAccessException("Invalid email or password"); }
+            if (password == null) { throw new UnauthorizedException("Invalid email or password"); }
             return new UserDTO()
             {
 
@@ -54,17 +64,74 @@ namespace Infrastructure.Repositories
             var result = await _userManager.CreateAsync(user, register.Password);
             if (!result.Succeeded)
             {
-                throw new Exception(result.Errors.FirstOrDefault().Description);
+                throw new BadRequestException(result.Errors.FirstOrDefault()?.Description?? "Failed to create user");
             }
-            await _publisher.PublishRegisterDataAsync(user.UserName, user.Email, user.PhoneNumber, register.IsTeacher);
+            /// for Rabbitmq
+            //await _publisher.PublishRegisterDataAsync(user.UserName, user.Email, user.PhoneNumber, register.IsTeacher);
+            await NotifyStudentApiOfRegistration(user.UserName, user.Email, user.PhoneNumber, register.IsTeacher);
+
             return "Sucessfully Registered";
+        }
+
+        private async Task NotifyStudentApiOfRegistration(string userName, string email, string phoneNumber, bool isTeacher)
+        {
+            using (var httpClient = new HttpClient())
+            {
+                var Dto = new
+                {
+                    FirstName = userName ?? userName?.Split(' ').FirstOrDefault(),
+                    LastName = userName ?? userName?.Split(' ').Skip(1).FirstOrDefault(),
+                    PhoneNumber =phoneNumber,
+                    Email =email,
+                    // StudentID will be assigned by the API/database
+                };
+                var user = _userManager.FindByEmailAsync(email).Result;
+                var Token = await _token.CreateToken(user, _userManager);
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Token);
+
+                // Make the API call through Ocelot gateway
+                // Adjust the endpoint path as needed based on your Student API
+                HttpResponseMessage response;
+                if (isTeacher== true)
+                {
+                    var command = new
+                    {
+                        teacher = Dto
+                    };
+                    var content = new StringContent(
+                        JsonSerializer.Serialize(command),
+                        Encoding.UTF8,
+                        "application/json");
+                    response = await httpClient.PostAsync("https://identitysso-001-site1.ktempurl.com/api/Teacher/CreateTeacher", content);
+
+                }
+                else
+                {
+                    var command = new
+                    {
+                        student = Dto
+                    };
+                    var content = new StringContent(
+                        JsonSerializer.Serialize(command),
+                        Encoding.UTF8,
+                        "application/json");
+                    response = await httpClient.PostAsync("https://identitysso-001-site1.ktempurl.com/api/Student/CreateStudent", content);
+
+                }
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    throw new InternalServerErrorException($"Failed to notify Student API: {response.StatusCode}, {errorContent}");
+                }
+            }
         }
         public Task CreateRole(RolesDTO roles)
         {
             var role = _roleManager.RoleExistsAsync(roles.RoleName).Result;
             if (role)
             {
-                throw new Exception("Role already exists");
+                throw new BadRequestException("Role already exists");
             }
             var identityRole = new IdentityRole()
             {
@@ -83,7 +150,7 @@ namespace Infrastructure.Repositories
             var user = _userManager.FindByEmailAsync(userroles.Email).Result;
             if (user == null)
             {
-                throw new Exception("User not found");
+                throw new NotFoundException("User not found");
             }
             await _userManager.AddToRoleAsync(user, userroles.RoleName);
         }
@@ -93,7 +160,7 @@ namespace Infrastructure.Repositories
             var user = _userManager.FindByEmailAsync(email).Result;
             if (user == null)
             {
-                throw new Exception("User not found");
+                throw new NotFoundException("User not found");
             }
             var roles = await _userManager.GetRolesAsync(user);
             return roles.ToList();
