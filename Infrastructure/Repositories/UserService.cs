@@ -102,7 +102,8 @@ namespace Infrastructure.Repositories
                         JsonSerializer.Serialize(command),
                         Encoding.UTF8,
                         "application/json");
-                    response = await httpClient.PostAsync("https://identitysso-001-site1.ktempurl.com/api/Teacher/CreateTeacher", content);
+                    //response = await httpClient.PostAsync("https://identitysso-001-site1.ktempurl.com/api/Teacher/CreateTeacher", content);
+                    response = await httpClient.PostAsync("https://localhost:44301/api/Teacher/CreateTeacher", content);
 
                 }
                 else
@@ -115,7 +116,8 @@ namespace Infrastructure.Repositories
                         JsonSerializer.Serialize(command),
                         Encoding.UTF8,
                         "application/json");
-                    response = await httpClient.PostAsync("https://identitysso-001-site1.ktempurl.com/api/Student/CreateStudent", content);
+                    //response = await httpClient.PostAsync("https://identitysso-001-site1.ktempurl.com/api/Student/CreateStudent", content);
+                    response = await httpClient.PostAsync("https://localhost:44301/api/Student/CreateStudent", content);
 
                 }
 
