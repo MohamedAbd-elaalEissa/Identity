@@ -96,8 +96,8 @@ namespace Identity.Controllers
             return Ok(new UserDTO()
             {
 
-                UserName = user.DisplayName,
-                Email = user.Email,
+                //UserName = user.DisplayName,
+                //Email = user.Email,
                 Token = newAccessToken,
                 RefreshToken = newRefreshToken
             });

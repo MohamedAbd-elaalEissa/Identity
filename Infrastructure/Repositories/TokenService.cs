@@ -18,6 +18,7 @@ namespace Infrastructure.Repositories
             {
                 new Claim(ClaimTypes.GivenName,user.DisplayName),
                 new Claim("email",user.Email),
+                new Claim("displayName",user.DisplayName),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
 
             };

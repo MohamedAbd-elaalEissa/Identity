@@ -34,8 +34,8 @@ namespace Infrastructure.Repositories
             return new UserDTO()
             {
 
-                UserName = user.DisplayName,
-                Email = user.Email,
+                //UserName = user.DisplayName,
+                //Email = user.Email,
                 Token = await _token.CreateToken(user, _userManager),
                 RefreshToken = await RefreshTokenAsync(user.Id),
             };
