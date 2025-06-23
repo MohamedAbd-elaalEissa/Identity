@@ -56,15 +56,21 @@ namespace Infrastructure.Repositories
         }
         public async Task<string> RegisterAsync(RegisterDTO register)
         {
+
             TypeAdapterConfig<RegisterDTO, AppIdentityUser>
                .NewConfig()
                .Map(dest => dest.DisplayName, src => src.UserName)
                .IgnoreNullValues(true);
+           
             var user = register.Adapt<AppIdentityUser>();
+            if (user.UserName.Contains(" "))
+            {
+                user.UserName = user.UserName.Replace(" ", "");
+            }
             var result = await _userManager.CreateAsync(user, register.Password);
             if (!result.Succeeded)
             {
-                throw new BadRequestException(result.Errors.FirstOrDefault()?.Description?? "Failed to create user");
+                throw new BadRequestException(result.Errors.FirstOrDefault()?.Description ?? "Failed to create user");
             }
             /// for Rabbitmq
             //await _publisher.PublishRegisterDataAsync(user.UserName, user.Email, user.PhoneNumber, register.IsTeacher);
@@ -81,8 +87,8 @@ namespace Infrastructure.Repositories
                 {
                     FirstName = userName ?? userName?.Split(' ').FirstOrDefault(),
                     LastName = userName ?? userName?.Split(' ').Skip(1).FirstOrDefault(),
-                    PhoneNumber =phoneNumber,
-                    Email =email,
+                    PhoneNumber = phoneNumber,
+                    Email = email,
                     // StudentID will be assigned by the API/database
                 };
                 var user = _userManager.FindByEmailAsync(email).Result;
@@ -92,7 +98,7 @@ namespace Infrastructure.Repositories
                 // Make the API call through Ocelot gateway
                 // Adjust the endpoint path as needed based on your Student API
                 HttpResponseMessage response;
-                if (isTeacher== true)
+                if (isTeacher == true)
                 {
                     var command = new
                     {
