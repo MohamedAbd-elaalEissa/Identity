@@ -55,7 +55,6 @@ namespace Identity.Controllers
 
         [HttpPost]
         [Route("CreateRole")]
-        [Authorize]
         public async Task<IActionResult> CreateRole(CreateRoleCommand command)
         {
             var res = await Mediator.Send(command);
@@ -64,7 +63,6 @@ namespace Identity.Controllers
 
         [HttpPost]
         [Route("UserRole")]
-        [Authorize]
         public async Task<IActionResult> UserRole(UserRoleCommand command)
         {
             var res = await Mediator.Send(command);

@@ -25,7 +25,7 @@ namespace Infrastructure.Repositories
             var authRoles = await userManager.GetRolesAsync(user);
             foreach (var role in authRoles)
             {
-                authClaims.Add(new Claim(ClaimTypes.Role, role));
+                authClaims.Add(new Claim("role", role));
                 // we can change this to role to can easly use it in ocelat.json
                 //authClaims.Add(new Claim("Role", role));
             }
