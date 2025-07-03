@@ -74,12 +74,12 @@ namespace Infrastructure.Repositories
             }
             /// for Rabbitmq
             //await _publisher.PublishRegisterDataAsync(user.UserName, user.Email, user.PhoneNumber, register.IsTeacher);
-            await NotifyStudentApiOfRegistration(user.UserName, user.Email, user.PhoneNumber, register.IsTeacher);
+            await NotifyStudentApiOfRegistration(user.UserName, user.Email, user.PhoneNumber, register.IsTeacher,register.academicLevelId);
 
             return "Sucessfully Registered";
         }
 
-        private async Task NotifyStudentApiOfRegistration(string userName, string email, string phoneNumber, bool isTeacher)
+        private async Task NotifyStudentApiOfRegistration(string userName, string email, string phoneNumber, bool isTeacher,int? academicLevelId)
         {
             using (var httpClient = new HttpClient())
             {
@@ -89,7 +89,7 @@ namespace Infrastructure.Repositories
                     LastName = userName ?? userName?.Split(' ').Skip(1).FirstOrDefault(),
                     PhoneNumber = phoneNumber,
                     Email = email,
-                    // StudentID will be assigned by the API/database
+                    AcademicLevelId = academicLevelId
                 };
                 var user = _userManager.FindByEmailAsync(email).Result;
                 var Token = await _token.CreateToken(user, _userManager);
