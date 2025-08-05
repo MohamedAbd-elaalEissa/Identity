@@ -16,9 +16,9 @@ namespace Infrastructure.IdentitySeed
             {
                 var user = new AppIdentityUser()
                 {
-                    DisplayName="Hamada",
-                    Email = "hamada@gmail.com",
-                    UserName = "hamada",
+                    DisplayName="MohamedAbdelaal",
+                    Email = "Mohamed.Abdelaal@gmail.com",
+                    UserName = "MohamedAbdelaal",
                     PhoneNumber = "01011470221"
                 };
                 await userManager.CreateAsync(user, "P##E0p$$");

@@ -74,22 +74,23 @@ namespace Infrastructure.Repositories
             }
             /// for Rabbitmq
             //await _publisher.PublishRegisterDataAsync(user.UserName, user.Email, user.PhoneNumber, register.IsTeacher);
-            await NotifyStudentApiOfRegistration(user.UserName, user.Email, user.PhoneNumber, register.IsTeacher,register.academicLevelId);
-
+            await NotifyStudentApiOfRegistration(user.DisplayName, user.Email, user.PhoneNumber, register.IsTeacher,register.academicLevelId,null);
+            
             return "Sucessfully Registered";
         }
 
-        private async Task NotifyStudentApiOfRegistration(string userName, string email, string phoneNumber, bool isTeacher,int? academicLevelId)
+        private async Task NotifyStudentApiOfRegistration(string userName, string email, string phoneNumber, bool isTeacher,int? academicLevelId,int? subjectId)
         {
             using (var httpClient = new HttpClient())
             {
                 var Dto = new
                 {
-                    FirstName = userName ?? userName?.Split(' ').FirstOrDefault(),
-                    LastName = userName ?? userName?.Split(' ').Skip(1).FirstOrDefault(),
+                    FirstName = userName?.Split(' ').FirstOrDefault(),
+                    LastName = userName?.Split(' ').Skip(1).FirstOrDefault(),
                     PhoneNumber = phoneNumber,
                     Email = email,
-                    AcademicLevelId = academicLevelId
+                    AcademicLevelId = academicLevelId,
+                    SubjectId= subjectId
                 };
                 var user = _userManager.FindByEmailAsync(email).Result;
                 var Token = await _token.CreateToken(user, _userManager);
